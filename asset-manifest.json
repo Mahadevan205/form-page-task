@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/form-page-task/static/css/main.fe8e3da8.css",
+    "main.js": "/form-page-task/static/js/main.dc4614ae.js",
+    "static/js/488.91a2dd70.chunk.js": "/form-page-task/static/js/488.91a2dd70.chunk.js",
+    "static/media/bg-image.png": "/form-page-task/static/media/bg-image.0c89977a201906c6326c.png",
+    "static/media/login-image.png": "/form-page-task/static/media/login-image.d86646c6013fe13aeabf.png",
+    "static/media/bootstrap-icons.woff?": "/form-page-task/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/form-page-task/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/logo.png": "/form-page-task/static/media/logo.491436c4678456b71d87.png",
+    "index.html": "/form-page-task/index.html",
+    "main.fe8e3da8.css.map": "/form-page-task/static/css/main.fe8e3da8.css.map",
+    "main.dc4614ae.js.map": "/form-page-task/static/js/main.dc4614ae.js.map",
+    "488.91a2dd70.chunk.js.map": "/form-page-task/static/js/488.91a2dd70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe8e3da8.css",
+    "static/js/main.dc4614ae.js"
+  ]
+}
