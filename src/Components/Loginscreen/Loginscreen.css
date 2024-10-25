@@ -1,0 +1,154 @@
+.bg-color {
+  background-image: url(./Assets/Images/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.main-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 190px 150px;
+}
+
+.form-division {
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 65px 65px; */
+  /* box-shadow: rgb(255 255 255 / 45%) 0px 3px 8px; */
+  border: 0.5px solid #44444494;
+  margin: auto 50px;
+}
+.input-field div input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form-alignment h1 {
+  text-align: center;
+  font-weight: 700;
+  font-family: system-ui;
+  color: #005d94;
+}
+.login-btn {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: #005d94;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: 0;
+  font-weight: 600;
+}
+
+.login-btn:hover {
+  background-color: rgb(243, 243, 243);
+  color: black;
+  transition: 0.1s all linear;
+}
+.input-field {
+  text-align: center;
+}
+.welcome-word {
+  text-align: center;
+  margin: 15px 0px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.forget-tag {
+  color: #0074b9;
+  text-decoration: none;
+  float: inline-end;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.input-group {
+  display: block !important;
+}
+.input-tag {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(97, 97, 97);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px 0px;
+}
+.input-tag svg {
+  margin-right: 10px;
+}
+.input-tag input {
+  border: none;
+  outline: none;
+  border: none;
+}
+.register-link {
+  color: #0074b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link:hover {
+  color: #01507e;
+  text-decoration: underline;
+  transition: 0.3s all linear;
+}
+
+@media only screen and (max-width: 575px) {
+  .main-flex {
+    display: block;
+    padding: 50px;
+  }
+  .form-division {
+    margin: auto;
+  }
+  .form-alignment {
+    padding: 0px 45px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main-flex {
+    padding: 60px;
+    display: block;
+  }
+  .form-division {
+    margin: auto;
+  }
+  .form-alignment {
+    padding: 0px 75px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .main-flex {
+    padding: 60px;
+    gap: 50px;
+  }
+  .form-division {
+    margin: auto;
+  }
+  .form-alignment {
+    padding: 0px 35px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .main-flex {
+    gap: 40px;
+    padding: 40px;
+  }
+}
