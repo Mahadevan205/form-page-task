@@ -1,12 +1,12 @@
 {
-  "homepage": "https://revanth2024.github.io/task",
+  "homepage": "https://mahadevan205.github.io/form-page-task",
   "name": "clear",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
